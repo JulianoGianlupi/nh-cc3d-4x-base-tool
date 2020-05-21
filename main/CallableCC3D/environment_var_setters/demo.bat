@@ -1,0 +1,8 @@
+@ECHO OFF
+@SET PREFIX_CC3D=c:\CompuCell3D-py3-64bit
+
+@SET PYTHON_INSTALL_PATH=c:\CompuCell3D-py3-64bit\python36\
+
+@SET PATH=%PYTHON_INSTALL_PATH%;%PATH%
+
+@SET PYTHONPATH=%PREFIX_CC3D%\lib\site-packages
